@@ -1,3 +1,3 @@
 #先按照nodejs
 
-sudo npm install sails -g
+sudo npm install sails -g -d
