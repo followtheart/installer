@@ -1,3 +1,3 @@
 #先按照nodejs
 
-sudo npm install bower -g
+sudo npm install bower -g -d
