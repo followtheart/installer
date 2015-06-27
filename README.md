@@ -1,14 +1,14 @@
-# installer
+# Installer
 One command installer
 
 Includes:
 
-Nodejs
-Sails
-Laravel
-Bower
+##Nodejs
+##Sails
+##Laravel
+##Bower
 
 ...
 
 
-etc
+##etc
