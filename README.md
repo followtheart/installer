@@ -1,2 +1,14 @@
 # installer
-软件安装命令集合。。。，免得每次都要找找找。
+One command installer
+
+Includes:
+
+Nodejs
+Sails
+Laravel
+Bower
+
+...
+
+
+etc
