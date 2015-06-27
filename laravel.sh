@@ -2,5 +2,8 @@
 sh composer.sh
 composer global require "laravel/installer=~1.1"
 
-export PATH="$PATH:~/.composer/vendor/bin"
+
+echo 'export PATH=$PATH:"~/.composer/vendor/bin/"' >> /etc/profile
+
+sh /etc/profile
 
