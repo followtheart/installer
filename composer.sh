@@ -2,3 +2,4 @@
 #https://github.com/composer/composer
 sudo apt-get install php5
 curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
