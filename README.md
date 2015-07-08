@@ -1,5 +1,6 @@
 # Installer
 One command installer
+一键环境配置
 
 Includes:
 
