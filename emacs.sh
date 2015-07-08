@@ -21,3 +21,4 @@ checkinstall
 cd ~
 mv .emacs.d .emacs.d.bak
 git clone https://github.com/followtheart/emacs.d.git .emacs.d
+git checkout prelude
