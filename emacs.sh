@@ -15,3 +15,9 @@ make
 apt-get install checkinstall
 
 checkinstall
+
+
+#复制配置文件
+cd ~
+mv .emacs.d .emacs.d.bak
+git clone https://github.com/followtheart/emacs.d.git .emacs.d
