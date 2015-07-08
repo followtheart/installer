@@ -1,6 +1,6 @@
 sudo apt-get install build-essential
 
-sudo apt-get build-dep emacs24
+sudo apt-get build-dep emacs24 libncurses5-dev
 
 wget http://ftp.gnu.org/gnu/emacs/emacs-24.4.tar.gz
 
