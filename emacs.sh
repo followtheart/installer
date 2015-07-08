@@ -8,7 +8,7 @@ tar -xzvf emacs-24.4.tar.gz
 
 cd emacs-24.4
 
-./configure --prefix=/opt/emacs 
+./configure --prefix=/opt/emacs --without-x
 
 make
 
