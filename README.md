@@ -10,6 +10,9 @@ Includes:
 ##Sails
 > curl -sS https://raw.githubusercontent.com/followtheart/installer/master/sailsjs.sh | sh
 
+##Composer
+> curl -sS https://raw.githubusercontent.com/followtheart/installer/master/composer.sh | sh
+
 ##Laravel
 > curl -sS https://raw.githubusercontent.com/followtheart/installer/master/laravel.sh | sh
 
