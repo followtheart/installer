@@ -1,5 +1,8 @@
 #laravel 配置
-sh composer.sh
+##第一步安装composer
+curl -sS https://raw.githubusercontent.com/followtheart/installer/master/composer.sh | sh
+
+##第二步安装laravel-framework
 composer global require "laravel/installer=~1.1"
 
 #添加laravel常用的php组件
