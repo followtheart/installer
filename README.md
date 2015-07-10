@@ -25,6 +25,8 @@ Includes:
 ##ubuntu下允许root用户ssh远程登录
 > curl -sS https://raw.githubusercontent.com/followtheart/installer/master/ssh-allow-root.sh | sh
 
+##Git 多账号配置(Just for me ^~^)
+> curl -sS https://raw.githubusercontent.com/followtheart/installer/master/git-config-local-user.sh | sh
 
 ##Todo
 
