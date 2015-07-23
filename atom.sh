@@ -3,6 +3,7 @@
 #Environment
 #
 #Dependence
+#nodejs
 #https://github.com/atom/atom/blob/master/docs/build-instructions/linux.md
 #By followtheart
 
