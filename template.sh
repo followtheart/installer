@@ -1,7 +1,7 @@
 #Name
 #
-#Environment
+#Reference
 #
-#Dependence
+#Dependencies
 #
 #By followtheart
