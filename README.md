@@ -28,6 +28,8 @@ Includes:
 ##Git 多账号配置(Just for me ^~^)
 > curl -sS https://raw.githubusercontent.com/followtheart/installer/master/git-config-local-user.sh | sh
 
+##Docker
+> curl -sS https://raw.githubusercontent.com/followtheart/installer/master/docker.sh | sh
 ##Todo
 
 
