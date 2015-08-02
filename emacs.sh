@@ -13,7 +13,7 @@ make
 
 sudo apt-get install -y checkinstall
 
-checkinstall
+sudo checkinstall
 
 
 #复制配置文件
