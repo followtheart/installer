@@ -14,5 +14,5 @@ sudo service apache2 restart
 
 echo 'export PATH=$PATH:"~/.composer/vendor/bin/"' >> /etc/profile
 
-sh /etc/profile
+source /etc/profile
 
