@@ -1,3 +1,4 @@
+#/bin/bash
 #laravel 配置
 ##第一步安装composer
 echo "laravel.sh-installing composer"
