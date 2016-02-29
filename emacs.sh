@@ -17,7 +17,7 @@ cd emacs-24.4
 
 ./configure --prefix=/opt/emacs --without-x
 
-make
+make -j2
 
 sudo apt-get install -y checkinstall
 
