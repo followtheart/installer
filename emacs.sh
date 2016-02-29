@@ -1,4 +1,4 @@
-sudo apt-get install -y build-essential build-dep emacs24 libncurses5-dev libtinfo-dev
+sudo apt-get install -y build-essential emacs24 libncurses5-dev libtinfo-dev
 
 filename_gz= "emacs-24.4.tar.gz"
 
