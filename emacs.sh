@@ -1,8 +1,9 @@
+#!/bin/sh 
 sudo apt-get install -y build-essential emacs24 libncurses5-dev libtinfo-dev
 
-filename_gz= "emacs-24.4.tar.gz"
+filename_gz="emacs-24.4.tar.gz"
 
-dir_path= "emacs-24.4"
+dir_path="emacs-24.4"
 
 if [ ! -f "$filename_gz" ]; then
     wget http://ftp.gnu.org/gnu/emacs/emacs-24.4.tar.gz
