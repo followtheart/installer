@@ -9,4 +9,5 @@ apt-get install libminiupnpc-dev -y
 
 
 
-
+#cross compile for windows
+sudo apt-get install g++-mingw-w64-i686 mingw-w64-i686-dev g++-mingw-w64-x86-64 mingw-w64-x86-64-dev
