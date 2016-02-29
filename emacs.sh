@@ -9,7 +9,7 @@ if [ ! -f "$filename_gz" ]; then
     wget http://ftp.gnu.org/gnu/emacs/emacs-24.4.tar.gz
 fi
 
-if [ ! -d "$dir_path"]; then 
+if [ ! -d "$dir_path" ]; then 
     tar -xzvf emacs-24.4.tar.gz
 fi
 
