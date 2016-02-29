@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt-get install libdb4.8-dev libdb4.8++-dev git libssl-dev -y 
 apt-get install dos2unix -y
 apt-get install libboost-all-dev
-apt-get install libminiupnpc-dev pkg-config autotools-dev -y
+apt-get install libminiupnpc-dev pkg-config autotools-dev autoconf automake libtool -y
 
 
 
