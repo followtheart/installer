@@ -1,4 +1,12 @@
-sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get install software-properties-common -y
+add-apt-repository ppa:bitcoin/bitcoin
 sudo apt-get update
-sudo apt-get install gcc-4.9 g++-4.9
-sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 60 --slave /usr/bin/g++ g++ /usr/bin/g++-4.9
+
+sudo apt-get install libdb4.8-dev libdb4.8++-dev git libssl-dev -y 
+apt-get install dos2unix -y
+apt-get install libboost-all-dev
+apt-get install libminiupnpc-dev -y
+
+
+
+
