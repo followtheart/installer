@@ -29,7 +29,7 @@ cd ~
 
 mv .emacs.d .emacs.d.bak
 
-git clone https://github.com/followtheart/emacs.d.git .emacs.d
+git clone https://github.com/qinshulei/emacs.d.git
 
 cd .emacs.d
 
