@@ -1,6 +1,6 @@
 apt-get update
 apt-get install curl git -y
-sudo apt-get install software-properties-common -y
+sudo apt-get install software-properties-common imagemagick -y
 add-apt-repository ppa:bitcoin/bitcoin
 sudo apt-get update
 
