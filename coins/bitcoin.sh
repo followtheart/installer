@@ -1,6 +1,6 @@
 apt-get update
-apt-get install curl git -y
-sudo apt-get install software-properties-common imagemagick -y
+apt-get install curl git  libstdc++6 -y
+sudo apt-get install software-properties-common imagemagick -y 
 add-apt-repository ppa:bitcoin/bitcoin
 sudo apt-get update
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test
