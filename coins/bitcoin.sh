@@ -1,3 +1,5 @@
+#!/bin/sh
+https://raw.githubusercontent.com/followtheart/installer/master/hosts.sh
 apt-get update
 apt-get install curl git  libstdc++6 software-properties-common imagemagick -y 
 add-apt-repository ppa:bitcoin/bitcoin
