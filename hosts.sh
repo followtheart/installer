@@ -1,2 +1,2 @@
  #!/bin/sh
- wget https://raw.githubusercontent.com/racaljk/hosts/master/hosts -O /etc/hosts
+ wget https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts -O /etc/hosts
