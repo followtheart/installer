@@ -1,6 +1,7 @@
 #!/bin/sh
 ssh-keygen
 apt-get install libboost-system1.55-dev libboost-filesystem1.55-dev libboost-thread1.55-dev libboost-program-options1.55-dev
+apt-get install software-properties-common
 apt-get install language-pack-zh-hans
 add-apt-repository ppa:bitcoin/bitcoin
 apt-get install software-properties-common
