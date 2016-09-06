@@ -4,6 +4,9 @@ One command installer
 
 Includes:
 
+##Redis
+> curl -sS https://raw.githubusercontent.com/followtheart/installer/master/redis.sh | sh
+
 ##Nodejs
 > curl -sS https://raw.githubusercontent.com/followtheart/installer/master/nodejs0.12.sh | sh
 
