@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh-keygen
+
 apt-get update
 apt-get install libboost-system1.55-dev libboost-filesystem1.55-dev libboost-thread1.55-dev libboost-program-options1.55-dev -y
 apt-get install software-properties-common zip -y
