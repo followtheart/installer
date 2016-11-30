@@ -12,7 +12,10 @@
 
 case "$1" in
 start)
-        start-stop-daemon --start --background --exec /home/tom/dev/helloworld
+        # 
+        #   start-stop-daemon --start --background --exec /home/tom/dev/helloworld
+        # 上面的语句似乎对二进制文件并不有效,下面的是复制了mysql 的启动脚本的语句
+        su - root -s /bin/sh -c "/root/helloworld/ > /dev/null 2>&1 &"
 ;;
 stop)
         start-stop-daemon --stop --name helloworld
