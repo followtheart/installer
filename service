@@ -24,3 +24,6 @@ esac
 
 #开机启动
 # update-rc.d helloworld defaults 99
+
+#运行服务前记得修改服务脚本权限
+# chmod 755 /etc/init.d/chinacoind
