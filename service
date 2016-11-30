@@ -20,3 +20,7 @@ start)
 stop)
         start-stop-daemon --stop --name helloworld
 esac
+
+
+#开机启动
+# update-rc.d helloworld defaults 99
