@@ -1,5 +1,5 @@
 FROM followtheart/ubuntu:aliyun
-MAINTAINER followthear "followtheart@outlook.com"
+MAINTAINER followtheart "followtheart@outlook.com"
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
        nodejs npm \
