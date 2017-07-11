@@ -9,15 +9,36 @@
 #
 #By followtheart
 sudo apt-get update
- sudo apt-get install apt-transport-https ca-certificates
- sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
- deb https://apt.dockerproject.org/repo ubuntu-trusty main
- sudo apt-get purge lxc-docker
-  apt-cache policy docker-engine
-  apt-get upgrade
-  
-#sudo apt-get install wget
 
+sudo apt-get remove docker docker-engine docker.io
+sudo apt-get update
+sudo apt-get install linux-image-extra-$(uname -r) linux-image-extra-virtual -y
+
+sudo apt-get update
+sudo apt-get install apt-transport-https ca-certificates curl software-properties-common -y
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
+
+sudo add-apt-repository \
+     "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+     $(lsb_release -cs) \
+     stable"
+
+sudo apt-get update
+sudo apt-get install docker-ce -y
+
+#Or
 #wget -qO- https://get.docker.com/ | sh
 
-docker run hello-world
+############docker-enter#################
+cd /tmp; curl https://www.kernel.org/pub/linux/utils/util-linux/v2.24/util-linux-2.24.tar.gz | tar -zxf-; cd util-linux-2.24;
+./configure --without-ncurses
+make nsenter && sudo cp nsenter /usr/local/bin
+wget https://www.kernel.org/pub/linux/utils/util-linux/v2.29/util-linux-2.29.tar.xz; tar xJvf util-linux-2.29.tar.xz
+cd util-linux-2.29
+./configure --without-ncurses && make nsenter
+sudo cp nsenter /usr/local/bin
+wget -P ~ https://github.com/yeasy/docker_practice/raw/master/_local/.bashrc_docker;
+echo "[ -f ~/.bashrc_docker ] && . ~/.bashrc_docker" >> ~/.bashrc; source ~/.bashrc
+
