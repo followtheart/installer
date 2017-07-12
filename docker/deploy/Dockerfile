@@ -22,6 +22,5 @@ RUN apt-get update \
 WORKDIR /data
 
 VOLUME /data
-COPY data/* /data/
 
 CMD ["bash","-c","/data/coind -reindex --datadir=/data"]

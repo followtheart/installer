@@ -1,7 +1,13 @@
 Run:
+data directory should include coindaemon and coin-name.conf
+/data
+   coind
+   coin-name.conf
 
 ```
-docker run --name moka -p 19104:19104 -idt followtheart/deploy:mokacoin
+mkdir data
+docker run --name moka -p 19104:19104 -v /path/to/data/:/data -idt followtheart/deploy:mokacoin
+
 ```
 
 port been your coind p2p port
