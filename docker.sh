@@ -32,9 +32,7 @@ sudo apt-get install docker-ce -y
 #wget -qO- https://get.docker.com/ | sh
 
 ############docker-enter#################
-cd /tmp; curl https://www.kernel.org/pub/linux/utils/util-linux/v2.24/util-linux-2.24.tar.gz | tar -zxf-; cd util-linux-2.24;
-./configure --without-ncurses
-make nsenter && sudo cp nsenter /usr/local/bin
+cd /tmp;
 wget https://www.kernel.org/pub/linux/utils/util-linux/v2.29/util-linux-2.29.tar.xz; tar xJvf util-linux-2.29.tar.xz
 cd util-linux-2.29
 ./configure --without-ncurses && make nsenter
