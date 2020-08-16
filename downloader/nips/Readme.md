@@ -1,4 +1,4 @@
-# nips papers downloader
+# nips paper downloader
 download papers from [NIPS](http://papers.nips.cc)
 ## prerequest
 
